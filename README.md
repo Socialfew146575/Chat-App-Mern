@@ -41,6 +41,7 @@ Chat-App-Mern is a real-time chat application built on the MERN (MongoDB, Expres
    ```bash
    git clone https://github.com/your-username/Chat-App-Mern.git
    cd Chat-App-Mern
+   ```
 2. Install dependencies for both server and client:
 ```bash
 # Install server dependencies
@@ -50,16 +51,17 @@ npm install
 # Install client dependencies
 cd ../client
 npm install
-
+```
 3. Set up environment variables:
 
 Create a .env file in the server directory and configure your MongoDB URI and other necessary variables.
 
 4. Run the application:
+ ```bash
 # Start the server (from the server directory)
 npm start
 
 # Start the client (from the client directory)
 npm start
-
+```
 5.Open your browser and navigate to http://localhost:5173 to view the application.
