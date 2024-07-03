@@ -14,7 +14,7 @@ const MessageList = ({ currentChat, currentUser, messages }) => {
             {messages.map((message, index) => (
                 <div
                 key={index} // Use a unique key for each message
-                className={`flex  justify-${message.fromSelf ? 'end' : 'start'} items-center w-full`}
+                className={`flex  ${message.fromSelf ? 'justify-end' : 'justify-start'} items-center w-full`}
                 >
                     
                     <div
