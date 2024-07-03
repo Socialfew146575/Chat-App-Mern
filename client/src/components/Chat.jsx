@@ -4,8 +4,10 @@ import WelcomePage from './WelcomePage'
 import ChatContainer from './ChatContainer'
 import { io } from "socket.io-client"
 import { host } from '../../utils/routes'
+import { useNavigate } from 'react-router-dom'
 const Chat = () => {
 
+  const navigate = useNavigate()
   const [currentChat, setCurrentChat] = useState(undefined)
   const [currentUser, setCurrentUser] = useState(undefined)
 
