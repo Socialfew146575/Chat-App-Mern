@@ -1,4 +1,4 @@
- export const host = 'http://localhost:4000'
+ export const host = "https://chat-app-mern-server-psi.vercel.app/";
 
 
 
