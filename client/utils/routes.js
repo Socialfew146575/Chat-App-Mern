@@ -1,4 +1,4 @@
- export const host = "https://chat-app-mern-server-psi.vercel.app/";
+ export const host = "https://chat-app-mern-server-psi.vercel.app";
 
 
 
