@@ -40,7 +40,7 @@ const io = socket(server, {
   cors: {
     origin: [
       "https://chat-app-mern-server-psi.vercel.app/",
-      "http://localhost:5173",
+      "https://chat-app-mern-client-orcin.vercel.app/",
     ],
     credentials: true,
   },
