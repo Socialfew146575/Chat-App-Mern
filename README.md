@@ -42,6 +42,7 @@ Chat-App-Mern is a real-time chat application built on the MERN (MongoDB, Expres
    git clone https://github.com/your-username/Chat-App-Mern.git
    cd Chat-App-Mern
 2. Install dependencies for both server and client:
+```bash
 # Install server dependencies
 cd server
 npm install
