@@ -39,8 +39,8 @@ startServer();
 const io = socket(server, {
   cors: {
     origin: [
-      "https://chat-app-mern-server-psi.vercel.app/",
-      "https://chat-app-mern-client-orcin.vercel.app/",
+      "https://chat-app-mern-server-psi.vercel.app",
+      "https://chat-app-mern-client-orcin.vercel.app",
     ],
     credentials: true,
   },
